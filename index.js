@@ -5,7 +5,7 @@ const routes = require('./routes');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://logap:uploadlogap@cluster0.lnxso.mongodb.net/logap?retryWrites=true&w=majority', {
+mongoose.connect('mongodb://localhost:27017/aerogerador', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
